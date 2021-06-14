@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: dbpool
+    password: DB@pool@2021
+    url: jdbc:mysql://localhost:3306/hugh
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      # 最小空闲连接数量
+      minimum-idle: 1
+      # 连接池最大连接数，默认是10
+      maximum-pool-size: 2
+      # 空闲连接存活最大时间，默认600000（10分钟）
+      idle-timeout: 600000
+      # 此属性控制从池返回的连接的默认自动提交行为,默认值：true
+      auto-commit: true
+
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+#logging:
+#  level:
+#    com.uwjx.dbpool.mapper: trace
