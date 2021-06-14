@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.uwjx.dbpool.mapper.DbPoolMapper">
+<mapper namespace="com.uwjx.dbpool.mapper_db1.DbPool1Mapper">
   <resultMap id="BaseResultMap" type="com.uwjx.dbpool.entity.DbPool">
     <!--@mbg.generated-->
     <!--@Table db_pool-->
